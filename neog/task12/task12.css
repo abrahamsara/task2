@@ -1,0 +1,99 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    size: border-box;
+  }
+
+  
+  :root {
+    --primary-color: #aae9e3;
+  }
+  
+  body {
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  header {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: rgb(230, 227, 227);
+  }
+  h1 {
+    font: cursive;
+    text-align: inherit;
+    color: black;
+  }
+  nav {
+    text-align: right;
+  }
+  nav > a {
+    padding: 0 0.5rem;
+  }
+  main {
+    margin: 0 0 7rem;
+  }
+   h1 {
+    margin: 1rem;
+  }
+  .input-label {
+    font-size: larger;
+    color: var(--primary-color);
+    width: 258px;
+  }
+  .input-label p {
+    font-size: larger;
+    margin: 0.5rem;
+  }
+  .input-text {
+    font-size: 14px;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 260px;
+  }
+  .btn-check {
+    background: var(--primary-color);
+    border: none;
+    color: rgb(251, 242, 242);
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: rgb(240, 235, 235);
+    margin: 1rem auto;
+    display: block;
+  }
+  
+  .output {
+    font-size: x-large;
+    margin: 1rem;
+  }
+  footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  footer p {
+    font-size: large;
+    text-align: center;
+  }
+  
+  .footer-list {
+    margin: 1rem;
+  }
+

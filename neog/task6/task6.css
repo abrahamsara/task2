@@ -1,0 +1,47 @@
+.header {
+    padding: 10px;
+    text-align: center;
+    background-color: #8adfce;;
+    color:black;
+    font-size: 15px;
+    font-style:italic;
+
+  }
+
+  body{
+      margin: 0;
+      font-family:'Kalam',cursive
+      color#333333;
+  }
+
+  textarea{
+      align-self: start;
+      box-sizing: border-box;
+      display: black;
+      width: 50%;
+      font-size: large;
+      margin-top: 2rem;
+      min-height: 20vh;
+      font-family: inherit;
+  }
+
+  button{
+      padding: inherit;
+      font-family: 'Kalam',cursive;
+      font-size:larger;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color:#8adfce;
+    text-align: center;
+}
+
+
+  footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}

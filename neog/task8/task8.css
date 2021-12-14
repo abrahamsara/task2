@@ -1,0 +1,11 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(251, 224, 224);
+}
+.className{
+    background-color: chartreuse;
+}
